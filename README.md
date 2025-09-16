@@ -31,9 +31,29 @@
 <img width="313" height="177" alt="image" src="https://github.com/user-attachments/assets/146ea615-2305-4285-9250-f736ea8f96b5" />
 
 # C. PENJELASAN INPUT
+### MainManga
 <img width="203" height="46" alt="image" src="https://github.com/user-attachments/assets/188a9e5a-acc0-47bb-ae81-bb04c0295cd7" />
 
 Di dalam Package Main terdapat Class Main yang berperan sebagai titik awal eksekusi program. Kelas ini bertugas menampilkan menu utama kepada pengguna, membaca input yang dimasukkan, kemudian meneruskannya ke bagian service untuk menjalankan berbagai proses seperti menambah, mengubah, menghapus, maupun menampilkan data aset investasi.
+
+### Manga
+<img width="170" height="47" alt="image" src="https://github.com/user-attachments/assets/adc932cb-a5a8-49f0-92a3-98d994d80e28" />
+
+Pada Package Model, terdapat Class Manga yang menjadi cetak biru objek manga. Kelas ini menyimpan atribut seperti judul, author, genre, dan tahun_rilis, serta dilengkapi constructor, getter, dan setter untuk inisialisasi, pengambilan, dan pengubahan data secara terstruktur dan terkontrol.
+
+### Service
+<img width="231" height="47" alt="image" src="https://github.com/user-attachments/assets/f43d55d8-e278-49ed-a1ad-988ad2cf71d8" />
+
+Pada Package Service terdapat Class MangaManager yang berfungsi sebagai pengelola logika bisnis untuk operasi CRUD. Di dalamnya tersedia berbagai method, seperti input tahun, menambah manga, menampilkan daftar manga, memperbarui data manga, serta menghapus manga yang tersimpan dalam koleksi ArrayList. Kelas ini juga berperan sebagai penghubung antara Main dan Manga, sehingga alur pengolahan data dapat berjalan dengan baik.
+
+
+
+
+
+
+
+
+
 
 
 
