@@ -48,11 +48,24 @@ Pada Package Service terdapat Class MangaManager yang berfungsi sebagai pengelol
 
 
 
+### Penerapan Properties
+<img width="335" height="90" alt="image" src="https://github.com/user-attachments/assets/c8864987-cdcb-4361-a7aa-5d79c93005b9" />
 
+Pada bagian ini saya menerapkan 3 Properties yaitu: this.judul yang menandakan judul, this.author yang menandakan author, this.genre yang menandakan genre dari manga, dan this.tahunRilis yang menandakan tahun dirilisnya.
 
+OUTPUT PROPERTIES
+<img width="280" height="126" alt="image" src="https://github.com/user-attachments/assets/dc7afe69-05e9-4785-96c1-db47057fecfe" />
 
+### Penerapan Constructor
+<img width="745" height="138" alt="image" src="https://github.com/user-attachments/assets/6721301e-81e4-44eb-9605-3bcee7d27c57" />
 
+Pada bagian Constructor, Constructor pada class Manga digunakan untuk memberikan nilai awal pada atribut judul, author, genre, dan tahunRilis ketika sebuah objek baru dibentuk. Proses ini berjalan otomatis saat objek sedang dibuat, sehingga setiap objek Manga langsung memiliki data sesuai parameter yang dimasukkan. Dengan demikian, constructor menjamin bahwa setiap manga sudah terdefinisi sejak pertama kali dibuat.
 
+### Penerapan Access Modifier
+
+<img width="288" height="118" alt="image" src="https://github.com/user-attachments/assets/c086f83c-3b65-4e18-a67f-1d0ed93cc95d" />
+
+Pada bagian Access Modifier, digunakan access modifier private pada atribut nama, jenis, dan nilai. Modifier private berarti keempat atribut ini hanya bisa diakses di dalam class Manga saja dan tidak dapat diakses langsung dari luar class. Tujuannya adalah untuk menerapkan prinsip enkapsulasi dalam OOP, yaitu melindungi data agar lebih aman serta memaksa penggunaan getter dan setter atau method lain yang sesuai jika ingin mengakses atau mengubah nilai atribut tersebut.
 
 
 
