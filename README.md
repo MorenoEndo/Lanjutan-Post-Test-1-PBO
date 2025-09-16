@@ -67,9 +67,15 @@ Pada bagian Constructor, Constructor pada class Manga digunakan untuk memberikan
 
 Pada bagian Access Modifier, digunakan access modifier private pada atribut nama, jenis, dan nilai. Modifier private berarti keempat atribut ini hanya bisa diakses di dalam class Manga saja dan tidak dapat diakses langsung dari luar class. Tujuannya adalah untuk menerapkan prinsip enkapsulasi dalam OOP, yaitu melindungi data agar lebih aman serta memaksa penggunaan getter dan setter atau method lain yang sesuai jika ingin mengakses atau mengubah nilai atribut tersebut.
 
+### Penerapan Fitur Search
+<img width="868" height="258" alt="image" src="https://github.com/user-attachments/assets/afcd6689-d2b7-4b02-a5e4-c159f8428df0" />
 
+Fitur search (cari manga) pada kode di atas berfungsi untuk mencari data aset berdasarkan nama. Program meminta pengguna memasukkan kata kunci, lalu membandingkannya dengan setiap nama aset yang ada di dalam daftar menggunakan perulangan for. Apabila ada kecocokan, maka data aset akan ditampilkan beserta pesan "Ditemukan", sedangkan jika tidak ada yang sesuai maka muncul pesan "Manga dengan judul tersebut tidak ditemukan.".
 
+OUTPUT FITUR SEARCH
+<img width="302" height="169" alt="image" src="https://github.com/user-attachments/assets/4ff2e57f-7de5-4888-8cf8-792f342fd963" />
 
-
-
-
+# D. HASIL OUTPUT SELURUH PROGRAM
+<img width="658" height="764" alt="image" src="https://github.com/user-attachments/assets/64a605bf-2ff2-4849-acdb-822b110d4652" />
+<img width="778" height="719" alt="image" src="https://github.com/user-attachments/assets/3f5741dd-61fc-4768-a1a5-1fabd0cd98b5" />
+<img width="777" height="348" alt="image" src="https://github.com/user-attachments/assets/8ed071e0-4c86-4a34-b3a5-07e99131c58e" />
